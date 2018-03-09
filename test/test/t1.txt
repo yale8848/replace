@@ -1,0 +1,40 @@
+github.com/yale8848/deploy
+yale8848/deploy
+Upload files and execute commands with ssh and sftp
+Execute use
+all_build.cmd
+deploy -c config.json
+config.json
+
+execute order: zipFiles-->preCommands-->uploads-->commands-->deletes
+
+
+{
+
+  "concurrency":true,
+  "zipFiles":["dir","file"],
+  "zipName":"zip.zip",
+  "deletes":["",""],
+  "servers":[
+    {
+      "host":"ip1,ip2",
+      "port":22,
+      "user":"root",
+      "password":"xxxxx",
+      "preCommands":[
+              ""
+       ],
+      "uploads":[
+        {
+          "local":"G:\\tmp\\mylog.txt",
+          "remote":"/home/soft"
+        }
+      ],
+      "commands":[
+        "date","uname","date"
+      ]
+
+    }
+  ]
+
+}

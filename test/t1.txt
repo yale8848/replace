@@ -1,0 +1,9 @@
+# Replace text tool
+
+# Usage
+
+```cmd
+
+replace -c config.json
+
+```
