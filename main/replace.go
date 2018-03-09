@@ -84,7 +84,7 @@ func main() {
 					r, _ := regexp.Compile(rpls.Regex)
 					rp = r.ReplaceAllString(rp, rpls.Replacement)
 					if !c.Silent {
-						fmt.Printf("[replacing]:%v: %v-->%v\r\n", f, rpls.Regex, rpls.Replacement)
+						fmt.Printf("[replacing]:%s: %s-->%s\r\n", f, rpls.Regex, rpls.Replacement)
 					}
 				}
 				if rp != data {
