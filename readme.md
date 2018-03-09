@@ -1,4 +1,4 @@
-# Replace text tool
+# Simple replace text tool
 
 ## Download
 
