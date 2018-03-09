@@ -1,5 +1,13 @@
 # Replace text tool
 
+## Download
+
+[windows-64](release/windows-64/replace.exe)
+
+[linux-64](release/linux-64/replace)
+
+[darwin-64](release/darwin-64/replace)
+
 # Usage
 
 ```cmd
